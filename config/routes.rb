@@ -8,7 +8,7 @@ Rails.application.routes.draw do
 #URI               | /articles/:id(.:format)
 #Controller#Action | articles#show
 #------------------------------------------------------------
-  resources :articles, only: [:show, :index, :new, :create]
+  resources :articles, only: [:show, :index, :new, :create, :edit, :update]
 #--New Route [ Route 3 ]-------------------------------------
 #Prefix            | article
 #Verb              | GET
