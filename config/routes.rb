@@ -8,7 +8,9 @@ Rails.application.routes.draw do
 #URI               | /articles/:id(.:format)
 #Controller#Action | articles#show
 #------------------------------------------------------------
-  resources :articles, only: [:show, :index, :new, :create, :edit, :update]
+  #resources :articles, only: [:show, :index, :new, :create, :edit, :update, :destroy]
+  #Representational State Transfer REST-ful resources are defined below;
+  resources :articles
 #--New Route [ Route 3 ]-------------------------------------
 #Prefix            | article
 #Verb              | GET
