@@ -17,4 +17,6 @@ Rails.application.routes.draw do
 #URI               | /articles/:id(.:format)
 #Controller#Action | articles#show
 #------------------------------------------------------------
+get 'signup', to: 'users#new'
+resources :users, except: [:new]
 end
