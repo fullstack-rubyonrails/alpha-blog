@@ -51,11 +51,11 @@ body {
     border-radius: 5px;
   }
   .flickr_pagination .disabled {
-    color: #aaaaaa; }
+    color: #dddddd; }
   .flickr_pagination .current {
     font-style: normal;
     font-weight: bold;
-    color: #ff0084; }
+    color: red; }
   .flickr_pagination a {
     border: 1px solid #dddddd;
     color: black;
@@ -65,7 +65,7 @@ body {
       background: red;
       color: white; }
   .flickr_pagination .page_info {
-    color: #aaaaaa;
+    color: #dddddd;
     padding-top: 0.8em; }
   .flickr_pagination .previous_page, .flickr_pagination .next_page {
     border-width: 2px; }
