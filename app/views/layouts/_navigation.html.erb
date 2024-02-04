@@ -25,7 +25,7 @@
           <%= link_to 'LogOut', logout_path, class: "nav-link", method: :delete %>
         </li>
         <li class="nav-item">
-          <%= link_to @current_user.username.upcase, user_path(@current_user), class: "nav-link" %>
+          <%= link_to current_user.username.upcase, user_path(current_user), class: "nav-link" %>
         </li>
 
         <% else %>
