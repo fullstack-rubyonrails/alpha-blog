@@ -1,4 +1,4 @@
-<h1 class="text-center mt-3">Create a new Category</h1>
+<h1 class="text-center mt-3">Edit Category Name</h1>
 
 <div class="container">
   <div class="row justify-content-center">
@@ -6,7 +6,7 @@
       <%= render 'form' %>
     </div>
     <div class="mb-3">
-      <%= link_to '[ Cancle & Return to Category Listing ]', categories_path, class: "text-dark" %>
+      <%= link_to '[ Cancle & Return to Category ]', category_path(@category), class: "text-dark" %>
     </div>
   </div>
 </div>
